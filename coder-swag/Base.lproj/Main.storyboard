@@ -14,7 +14,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOP BY CATEGORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgu-iH-2My">
+                                <rect key="frame" x="20" y="30" width="165" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="frh-gD-bHF">
+                                <rect key="frame" x="0.0" y="69.5" width="414" height="738.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="frh-gD-bHF" firstAttribute="top" secondItem="Jgu-iH-2My" secondAttribute="bottom" constant="16" id="6AA-04-zlo"/>
+                            <constraint firstItem="Jgu-iH-2My" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="FEs-sv-Dvl"/>
+                            <constraint firstItem="Jgu-iH-2My" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JJL-N1-MP8"/>
+                            <constraint firstAttribute="bottom" secondItem="frh-gD-bHF" secondAttribute="bottom" id="Qcn-Mg-AwQ"/>
+                            <constraint firstItem="frh-gD-bHF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WKM-Ej-xiY"/>
+                            <constraint firstItem="frh-gD-bHF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hlt-TZ-1N4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="CODER SWAG" id="n9B-Az-HEZ"/>
