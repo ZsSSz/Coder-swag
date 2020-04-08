@@ -23,7 +23,7 @@ class CategoriesVC: UIViewController, UITableViewDataSource, UITableViewDelegate
         return DataService.instance.getCategories().count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: indexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         if let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell") as? CategoryCell {
             let category = DataService.instance.getCategories()[indexPath.row]
