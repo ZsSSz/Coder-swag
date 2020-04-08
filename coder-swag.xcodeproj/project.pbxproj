@@ -17,6 +17,7 @@
 		4C08B855243CAFC000B854F5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08B854243CAFC000B854F5 /* Category.swift */; };
 		4C08B858243CBD6D00B854F5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08B857243CBD6D00B854F5 /* DataService.swift */; };
 		4C08B85A243DE71D00B854F5 /* ProductCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08B859243DE71D00B854F5 /* ProductCellCollectionViewCell.swift */; };
+		4C08B85C243DEA9200B854F5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08B85B243DEA9200B854F5 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4C08B854243CAFC000B854F5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		4C08B857243CBD6D00B854F5 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		4C08B859243DE71D00B854F5 /* ProductCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		4C08B85B243DEA9200B854F5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				4C08B854243CAFC000B854F5 /* Category.swift */,
+				4C08B85B243DEA9200B854F5 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C08B840243C779C00B854F5 /* CategoriesVC.swift in Sources */,
+				4C08B85C243DEA9200B854F5 /* Product.swift in Sources */,
 				4C08B855243CAFC000B854F5 /* Category.swift in Sources */,
 				4C08B83C243C779C00B854F5 /* AppDelegate.swift in Sources */,
 				4C08B858243CBD6D00B854F5 /* DataService.swift in Sources */,
