@@ -16,6 +16,7 @@
 		4C08B853243CA74A00B854F5 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08B852243CA74A00B854F5 /* CategoryCell.swift */; };
 		4C08B855243CAFC000B854F5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08B854243CAFC000B854F5 /* Category.swift */; };
 		4C08B858243CBD6D00B854F5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08B857243CBD6D00B854F5 /* DataService.swift */; };
+		4C08B85A243DE71D00B854F5 /* ProductCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08B859243DE71D00B854F5 /* ProductCellCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4C08B852243CA74A00B854F5 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		4C08B854243CAFC000B854F5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		4C08B857243CBD6D00B854F5 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		4C08B859243DE71D00B854F5 /* ProductCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4C08B852243CA74A00B854F5 /* CategoryCell.swift */,
+				4C08B859243DE71D00B854F5 /* ProductCellCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				4C08B858243CBD6D00B854F5 /* DataService.swift in Sources */,
 				4C08B83E243C779C00B854F5 /* SceneDelegate.swift in Sources */,
 				4C08B853243CA74A00B854F5 /* CategoryCell.swift in Sources */,
+				4C08B85A243DE71D00B854F5 /* ProductCellCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
